@@ -1,0 +1,22 @@
+uuid: ae6f96d3-701a-48f0-becc-946c74b23778
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - movientt
+_core:
+  default_config_hash: S0Y16qIQfKiOEzWlddOGk3u_BKwAruAheA8VVFfGbLc
+id: movientt_help
+theme: movientt
+region: content
+weight: -3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

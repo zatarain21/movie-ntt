@@ -1,0 +1,4 @@
+name: movie-ntt-app
+recipe: drupal10
+config:
+  webroot: web

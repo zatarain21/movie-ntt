@@ -1,0 +1,22 @@
+uuid: a18959b5-8911-4d47-b890-a06a8aa70489
+langcode: en
+status: true
+dependencies:
+  theme:
+    - movientt
+_core:
+  default_config_hash: yX9o6NcntZnXRDfbJoHY1pJwuXlumW44m5AMs347NN4
+id: movientt_local_tasks
+theme: movientt
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

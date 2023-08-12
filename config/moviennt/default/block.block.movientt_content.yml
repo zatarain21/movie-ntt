@@ -1,0 +1,22 @@
+uuid: 7393f168-61df-42c2-a820-0b270fcc9a49
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - movientt
+_core:
+  default_config_hash: 1o0W13wt232YmsDYiRA5xtlFq0L2WNS7FmIVbBeuhIY
+id: movientt_content
+theme: movientt
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }
