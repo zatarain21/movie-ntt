@@ -1,0 +1,17 @@
+uuid: 8dea80f0-46c4-4f5c-ba0d-3f3e57c11002
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: actor_portrait
+label: 'Actor portrait'
+effects:
+  5e4f4af2-6e1b-467f-bea0-d8481c361481:
+    uuid: 5e4f4af2-6e1b-467f-bea0-d8481c361481
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 360
+      height: 500
+      crop_type: focal_point

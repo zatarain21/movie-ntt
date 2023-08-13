@@ -1,0 +1,17 @@
+uuid: d2610cd2-6d27-42ff-ac16-074c6d94113c
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: actor_mini
+label: 'Actor mini'
+effects:
+  a1c78d1c-06ea-4b3d-976f-7586bdb1b37e:
+    uuid: a1c78d1c-06ea-4b3d-976f-7586bdb1b37e
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 120
+      height: 120
+      crop_type: focal_point

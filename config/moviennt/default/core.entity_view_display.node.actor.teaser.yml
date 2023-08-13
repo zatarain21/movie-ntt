@@ -1,0 +1,32 @@
+uuid: 30d41053-ee35-44bd-865d-98699a306919
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.actor.body
+    - field.field.node.actor.field_actor_picture
+    - image.style.actor_mini
+    - node.type.actor
+  module:
+    - image
+    - user
+id: node.actor.teaser
+targetEntityType: node
+bundle: actor
+mode: teaser
+content:
+  field_actor_picture:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: actor_mini
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  body: true
+  links: true

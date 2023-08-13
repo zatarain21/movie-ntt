@@ -1,0 +1,18 @@
+uuid: f803bcec-d735-489c-8779-ea5ea3926be2
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Actor
+type: actor
+description: 'The actor page must have the ‘actor name’, ‘actor picture’, ‘actor biography’ and the list of movies in the site that this actor has played a role.'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

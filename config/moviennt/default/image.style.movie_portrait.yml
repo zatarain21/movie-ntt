@@ -1,0 +1,15 @@
+uuid: 007fd4b4-317f-4b0c-9407-f0b90a3d5104
+langcode: en
+status: true
+dependencies: {  }
+name: movie_portrait
+label: 'Movie portrait'
+effects:
+  ac8b8616-083e-4371-b11b-278a7e0c33d8:
+    uuid: ac8b8616-083e-4371-b11b-278a7e0c33d8
+    id: image_scale
+    weight: 1
+    data:
+      width: 640
+      height: null
+      upscale: true

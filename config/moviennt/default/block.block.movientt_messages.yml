@@ -11,7 +11,7 @@ _core:
 id: movientt_messages
 theme: movientt
 region: content
-weight: -7
+weight: -2
 provider: null
 plugin: system_messages_block
 settings:

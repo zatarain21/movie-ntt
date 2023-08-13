@@ -12,7 +12,7 @@ _core:
   default_config_hash: Fm7sDs2U1u99MaVOZEZqa-QOJrrUiQMWJb1jMozYO48
 id: movientt_main_navigation
 theme: movientt
-region: primary_menu
+region: footer
 weight: -5
 provider: null
 plugin: 'system_menu_block:main'

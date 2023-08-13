@@ -1,0 +1,22 @@
+uuid: 57d91360-dcec-4191-93fd-8a8680c06faf
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: actor
+label: Movies
+type: 'canonical_entities:node'
+pattern: 'movie/[node:title]'
+selection_criteria:
+  1b1648a5-35fb-4b0b-8d1b-6893e0af92d2:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 1b1648a5-35fb-4b0b-8d1b-6893e0af92d2
+    context_mapping:
+      node: node
+    bundles:
+      movie: movie
+selection_logic: and
+weight: -5
+relationships: {  }
